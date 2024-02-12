@@ -61,27 +61,27 @@ Risks:
 * The next functionalities will be tested: View an order, Searching an order, Manually Adding/Modifying an order.
 * I will analyze the business requirement specifications to ensure that there are no mistakes, 
 * The testing process will be executed, based on the requirements sent by the client
-* The following test conditions were found: [Test conditions] .
+* The following test conditions were found: [Test conditions](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20conditions%20opencart.jpg) .
 
 2.3. Test design
-* Functional test cases were created in Zephyr Squad and can be accessed here: ---------
+* Functional test cases were created in Zephyr Squad and can be accessed here: [Test cases](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
 * The test design techniques used for generating test cases are: equivalence partitioning, boundary value analysis.
 
 2.4. Test implementation
 * Testing environment is up and running: https://demo.opencart.com/
 * Access to the test environment is given: username demo, pass: demo
 * Cycle summary was created.
-* Test cases were added to the cycle summary: cycle summary. -----------------
+* Test cases were added to the cycle summary: [Cycle Summary](https://github.com/ManBianca/Project-OpenCart/blob/main/ZFJ-Executions-02-12-2024.csv).
 
 2.5. Test execution
 * Test cases are executed on the created test Cycle summary: cycle summary execution.
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: bug reports. --------------
+* Bugs have been created based on the failed tests. The complete bug reports can be found here: [bug reports](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
 * Full regression tests pack was executed.
 
 2.6. Test completion
 * As the exit criteria were met and satisfied as mentioned in the 2.1 section, this feature is suggested to go live by the QA team.
-* The traceability matrix was generated and can be found here: Traceability matrix. --------
-* Test execution chart was generated: test execution chart. ------------
+* The traceability matrix was generated and can be found here: [Traceability Matrix](https://github.com/ManBianca/Project-OpenCart/blob/main/Traceability%20Matrix.jpg).
+* Test execution chart was generated: [test execution chart](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20Execution%20chart.jpg).
 
 2.7. Test monitoring and control
 
