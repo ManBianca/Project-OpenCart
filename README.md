@@ -71,10 +71,10 @@ Risks:
 * Testing environment is up and running: https://demo.opencart.com/
 * Access to the test environment is given: username demo, pass: demo
 * Cycle summary was created.
-* Test cases were added to the cycle summary: [Cycle Summary](https://github.com/ManBianca/Project-OpenCart/blob/main/ZFJ-Executions-02-12-2024.csv).
+* Test cases were added to the cycle summary: [Cycle Summary](https://github.com/ManBianca/Project-OpenCart/blob/main/Cycle%20Summary%20-%20Sales%20module%20cycle.jpg).
 
 2.5. Test execution
-* Test cases are executed on the created test Cycle summary: cycle summary execution.
+* Test cases are executed on the created test Cycle summary: [Cycle Summary Execution](https://github.com/ManBianca/Project-OpenCart/blob/main/ZFJ-Executions-02-12-2024.csv).
 * Bugs have been created based on the failed tests. The complete bug reports can be found here: [Bug Reports](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
 * Full regression tests pack was executed.
 
