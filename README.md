@@ -75,13 +75,13 @@ Risks:
 
 2.5. Test execution
 * Test cases are executed on the created test Cycle summary: cycle summary execution.
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: [bug reports](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
+* Bugs have been created based on the failed tests. The complete bug reports can be found here: [Bug Reports](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
 * Full regression tests pack was executed.
 
 2.6. Test completion
 * As the exit criteria were met and satisfied as mentioned in the 2.1 section, this feature is suggested to go live by the QA team.
 * The traceability matrix was generated and can be found here: [Traceability Matrix](https://github.com/ManBianca/Project-OpenCart/blob/main/Traceability%20Matrix.jpg).
-* Test execution chart was generated: [test execution chart](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20Execution%20chart.jpg).
+* Test execution chart was generated: [Test Execution Chart](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20Execution%20chart.jpg).
 
 2.7. Test monitoring and control
 
