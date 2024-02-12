@@ -88,3 +88,15 @@ Risks:
 Periodic reports are generated to check the project status: status for the test cases executed, status for the converge of the business requirements, etc
 * Two weeks report 1
 * Two weeks report 2
+
+After Testing the functionalities for View an Order, Searching for an Order, Manually Adding/Modifying an Order, I have reached the following conclusions:
+* View an Order: The functionalities tested for the correct visualization of the Sales module have been well implemented, so that an admin can have all the details about the site's orders at his fingertips in a table. The checkbox, sorting, navigating among the orders is easy and no aspects were found that require changes.
+* Searching for an Order: The methods of filtering orders by 'Order ID', 'Customer', 'Order Status', 'Total $' depend on 'Added Date' and 'Modified Date', but in these tests performed in some positive conditions, there were no noticed problems to solve.
+* Manually Adding/Modifying an Order:
+  
+The BAMM-31 story was based on testing the addition of new commands and everything involving the add order button. Even if the functionality of the button itself was well implemented, major problems were found with command values exceeding 100000000000, a bug was reported and requires attention to be fixed.
+
+The tests carried out within the BAMM-32 story followed functionalities such as modifying commands and deleting them. The tested functionalities are well implemented and easy to use, but two minor problems related to the deletion of orders were also found, bugs were reported. The two defects found do not affect the proper functioning of the functionalities.
+
+In general, the tests had a satisfactory finality and a perfect functionality. It is recommended to make adjustments on the minor aspects discovered to provide a better quality and experience for the admin and not only.
+
