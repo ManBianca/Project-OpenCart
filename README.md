@@ -50,12 +50,21 @@ Exit criteria:
 *	the schedule has been achieved
 
 Risks:
+
+Project risks:
 *	stability risks like the system slows down, the system encounters functionality problems, crashes, disconnects, etc, can affect the performance of the web application
 *	IE browser might have performance issues
 *	the web page pagination could be impacted when opened on mobile devices
-*	stress conditions like high user loads, heavy data processing, network congestion,  might impact the web application
-*	new browser might not be supported
+*	stress conditions like high user loads, heavy data processing, network congestion, might impact the web application
+*	new browser launched might not be supported
 *	Improper communication among team members or with enterprise stakeholders can lead to a low quality of the product
+
+Product risks:
+*	High latency decreases communication bandwidth, and can be temporary or permanent, depending on the source of the delays. High latency can haves a negative effect on user experience.
+*	Low performance: website may be slowing down due to several reasons, some of these being – high traffic; too many images and plugins; code not being up to date; poor performance of server; due to location; absence of caching, etc.
+* Existence of defects in the finished product that can lead to failure
+* The possibility that the product may not meet the client's expectations and needs due to the lack of acceptance testing
+* The low quality of non-functional parameters (usability, performance, etc.) can lead to various problems using the application and which can affect the user experience
 
 2.2. Test analysis
 * The next functionalities will be tested: View an order, Searching an order, Manually Adding/Modifying an order.
@@ -94,9 +103,13 @@ After Testing the functionalities for View an Order, Searching for an Order, Man
 * Searching for an Order: The methods of filtering orders by 'Order ID', 'Customer', 'Order Status', 'Total $' depend on 'Added Date' and 'Modified Date', but in these tests performed in some positive conditions, there were no noticed problems to solve.
 * Manually Adding/Modifying an Order:
   
-The BAMM-31 story was based on testing the addition of new commands and everything involving the add order button. Even if the functionality of the button itself was well implemented, major problems were found with command values exceeding 100000000000, a bug was reported and requires attention to be fixed.
+The BAMM-31 story was based on testing the addition of new commands and everything involving the add order button. Even if the functionality of the button itself was well implemented, major problems were found with command values exceeding 100.000.000.000$, a bug was reported and requires attention to be fixed.
 
 The tests carried out within the BAMM-32 story followed functionalities such as modifying commands and deleting them. The tested functionalities are well implemented and easy to use, but two minor problems related to the deletion of orders were also found, bugs were reported. The two defects found do not affect the proper functioning of the functionalities.
+
+In total there are 4 stories covered by 17 tests, each of those tests were written and executed as shown above in 2.5. section.
+
+In 2 of the 4 stories, 3 bugs were discovered that were reported and fixed. These have minor severity, with medium priority. These are defects that do not lead to failure and can be solved during the development activities.
 
 In general, the tests had a satisfactory finality and a perfect functionality. It is recommended to make adjustments on the minor aspects discovered to provide a better quality and experience for the admin and not only.
 
