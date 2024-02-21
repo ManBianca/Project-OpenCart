@@ -1,5 +1,8 @@
 # Project-OpenCart
 ## My Project in Manual Testing IT Factory
+
+In addition to the actual test project part, I also attach the [SQL section](https://github.com/ManBianca/Project-OpenCart/blob/main/OpenCart-SQL.sql).
+
 ### Test Plan
 #### 1.Introduction
 
