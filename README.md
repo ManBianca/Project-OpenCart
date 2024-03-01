@@ -22,7 +22,7 @@ Tools used: JIRA, Zephyr Squad.
 
 In this release, I will focus and test the Sales module, with the following functionalities:
 * View an order from the Order list
-* Searching for an order 
+* Filter an order 
 * Manually Adding/Modifying an order 
 
 1.3. Functionalities and tests out of scope
@@ -35,49 +35,64 @@ The other functionalities from dashboard that are not mentioned for testing in t
 
 #### 2.Test Process
 2.1. Test planning
-Roles and responsibilities: Man Bianca - role - tester.
+Roles and responsibilities: 
+
+| Name | Role | Will test |
+| :---         |     :---:      |    :---:    |
+| Man Bianca   | Tester     | View an order    |
+|     |       | Filter an order      |
+|     |       | Manually Adding/Modifying an order      |
 
 Entry criteria:
-*	Verify if the Test environment is available and ready for use.
-*	Verify if test tools installed in the environment are ready for use.
-*	Verify if Test Data is available and validated for correctness of Data.
 *	Verify if functional business specifications are defined.
+* The partial or complete testable code is available.
+* Test cases are readily available.
+* Data for testing is sufficient in nature and available.
 *	Verify if roles needed for the project are allocated.
 
 Exit criteria:
-*	all test cases have been executed
+*	All test cases have been executed
 *	90% of tests are passed
-*	no Critical issues/bugs have Open status (All unresolved bugs have low priority and low severity)
-*	exploratory testing performed on the features: View an order, Searching for an order, Manually Adding/Modifying an order
-•	update tests are 100% passed (update tests will not generate other new issues that impact the application)
-*	the schedule has been achieved
+*	No Critical issues/bugs have Open status (All unresolved bugs have low priority and low severity)
+*	Exploratory testing performed on the features: View an order, Filter an order, Manually Adding/Modifying an order
+*	Update tests are 100% passed (update tests will not generate other new issues that impact the application)
+*	The schedule has been achieved
 
 Risks:
 
 Project risks:
-*	stability risks like the system slows down, the system encounters functionality problems, crashes, disconnects, etc, can affect the performance of the web application
-*	IE browser might have performance issues
-*	the web page pagination could be impacted when opened on mobile devices
-*	stress conditions like high user loads, heavy data processing, network congestion, might impact the web application
-*	new browser launched might not be supported
-*	Improper communication among team members or with enterprise stakeholders can lead to a low quality of the product
+* Incomplete or Changing Requirements: Unclear, incomplete, or changing requirements can lead to misunderstandings, scope creep, and difficulty in defining test cases accurately.
+* Schedule Delays: Tight deadlines, unexpected delays in development, or inadequate time allocated for testing can result in rushed testing efforts, compromised quality, and increased project risks.
+* Resource Constraints: Insufficient staffing, inadequate testing tools, or limited access to testing environments can hamper the testing process and compromise the effectiveness of testing activities.
+* Scope Creep: Expansion of project scope beyond the initially defined boundaries can result in additional testing efforts, increased complexity, and challenges in maintaining test coverage.
+* Technical Challenges: Complex system architecture, integration issues, compatibility issues across platforms and devices, or limitations of testing tools can pose technical challenges and hinder the effectiveness of testing efforts.
+* Communication Breakdowns: Poor communication among project stakeholders, misalignment of expectations, or lack of collaboration between development and testing teams can lead to misunderstandings, delays in issue resolution, and inefficiencies in testing activities.
+* Data Risks: Inadequate or inappropriate test data, data privacy concerns, or data integrity issues can compromise the effectiveness of testing and lead to inaccurate test results.
+* Environmental Risks: Unstable or inadequate testing environments, infrastructure failures, or configuration issues can disrupt testing activities and impede the identification of defects.
+* Quality Risks: Insufficient test coverage, inadequate test cases, or ineffective defect management processes can result in undetected defects, leading to compromised quality and increased rework efforts.
+
 
 Product risks:
-*	High latency decreases communication bandwidth, and can be temporary or permanent, depending on the source of the delays. High latency can haves a negative effect on user experience.
-*	Low performance: website may be slowing down due to several reasons, some of these being – high traffic; too many images and plugins; code not being up to date; poor performance of server; due to location; absence of caching, etc.
-* Existence of defects in the finished product that can lead to failure
-* The possibility that the product may not meet the client's expectations and needs due to the lack of acceptance testing
-* The low quality of non-functional parameters (usability, performance, etc.) can lead to various problems using the application and which can affect the user experience
+* Integration Challenges: Integration with third-party systems, services, or APIs can introduce risks related to compatibility, data exchange, and interoperability, requiring thorough integration testing to validate seamless interaction.
+* Performance and Scalability: Performance-related risks, such as slow response times, resource utilization issues, or scalability limitations, can impact user experience, system reliability, and the ability of the software to handle increasing loads over time.
+* Security Vulnerabilities: Security risks, including vulnerabilities, weaknesses, or exposure to malicious attacks, can compromise the confidentiality, integrity, and availability of data, necessitating robust security testing to identify and address potential threats.
+* Usability and Accessibility: Usability issues, navigation challenges, or accessibility barriers for users with disabilities can affect user satisfaction, adoption rates, and compliance with regulatory requirements, highlighting the importance of usability and accessibility testing.
+* Platform and Device Compatibility: Compatibility risks associated with different operating systems, web browsers, devices, or screen resolutions can lead to inconsistencies in functionality, layout, or performance across platforms, requiring comprehensive compatibility testing.
+* Data Integrity and Accuracy: Risks related to data integrity, accuracy, or consistency can arise from errors in data processing, storage, or manipulation, necessitating data validation and verification through thorough testing of data inputs, outputs, and calculations.
+* Fault Tolerance and Disaster Recovery: Risks associated with system failures, downtime, or data loss due to hardware failures, software bugs, or natural disasters can impact business continuity and operational resilience, requiring testing of fault tolerance mechanisms and disaster recovery procedures.
+* Localization and Internationalization: Risks related to localization (adapting the software for specific languages, cultures, or regions) and internationalization (designing the software to support global markets) can affect usability, functionality, and acceptance in diverse markets, necessitating localization and internationalization testing.
 
 2.2. Test analysis
-* The next functionalities will be tested: View an order, Searching an order, Manually Adding/Modifying an order.
-* I will analyze the business requirement specifications to ensure that there are no mistakes, 
-* The testing process will be executed, based on the requirements sent by the client
-* The following test conditions were found: [Test conditions](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20conditions%20opencart.jpg) .
+* The next functionalities will be tested: View an order, Filter an order, Manually Adding/Modifying an order.
+* I will analyze the business requirement specifications to ensure that there are no mistakes. 
+* The testing process will be executed, based on the requirements sent by the client.
+* The following test conditions were found: 
+![Test conditions opencart](https://github.com/ManBianca/Project-OpenCart/assets/159307072/2709b653-fa85-4b5d-bdac-adfa484aab1b)
+
 
 2.3. Test design
-* Functional test cases were created in Zephyr Squad and can be accessed here: [Test cases](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf).
-* The test design techniques used for generating test cases are: equivalence partitioning, boundary value analysis.
+* Functional test cases were created in Zephyr Squad and can be accessed: [here](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf) (after stories) or [here](https://itfclasses.atlassian.net/jira/software/c/projects/BAMM/boards/84/backlog) .
+* The test design techniques used for generating test cases are:  functional testing, positive testing and negative testing, equivalence partitioning, boundary value analysis.
 
 2.4. Test implementation
 * Testing environment is up and running: https://demo.opencart.com/
@@ -92,18 +107,23 @@ Product risks:
 
 2.6. Test completion
 * As the exit criteria were met and satisfied as mentioned in the 2.1 section, this feature is suggested to go live by the QA team.
-* The traceability matrix was generated and can be found here: [Traceability Matrix](https://github.com/ManBianca/Project-OpenCart/blob/main/Traceability%20Matrix.jpg).
-* Test execution chart was generated: [Test Execution Chart](https://github.com/ManBianca/Project-OpenCart/blob/main/Test%20Execution%20chart.jpg).
+* The traceability matrix was generated:
+  ![Traceability Matrix modificata](https://github.com/ManBianca/Project-OpenCart/assets/159307072/28ab837f-17ec-4671-94ca-a6e35d4430d8)
+  ![Traceability Matrix modificata 1](https://github.com/ManBianca/Project-OpenCart/assets/159307072/ea09b9f8-4168-4aab-96b8-e9fafc19c0b2)
+
+
+* Test execution chart was generated:
+  
+![Test Execution chart](https://github.com/ManBianca/Project-OpenCart/assets/159307072/03cbedf6-369c-4aa2-aaf6-3449985166d0)
+
 
 2.7. Test monitoring and control
 
 Periodic reports are generated to check the project status: status for the test cases executed, status for the converge of the business requirements, etc
-* Two weeks report 1
-* Two weeks report 2
 
 After Testing the functionalities for View an Order, Searching for an Order, Manually Adding/Modifying an Order, I have reached the following conclusions:
 * View an Order: The functionalities tested for the correct visualization of the Sales module have been well implemented, so that an admin can have all the details about the site's orders at his fingertips in a table. The checkbox, sorting, navigating among the orders is easy and no aspects were found that require changes.
-* Searching for an Order: The methods of filtering orders by 'Order ID', 'Customer', 'Order Status', 'Total $' depend on 'Added Date' and 'Modified Date', but in these tests performed in some positive conditions, there were no noticed problems to solve.
+* Filter an Order: The methods of filtering orders by 'Order ID', 'Customer', 'Order Status', 'Total $' depend on 'Added Date' and 'Modified Date', but in these tests performed in some positive conditions, there were no noticed problems to solve.
 * Manually Adding/Modifying an Order:
   
 The BAMM-31 story was based on testing the addition of new commands and everything involving the add order button. Even if the functionality of the button itself was well implemented, major problems were found with command values exceeding 100.000.000.000$, a bug was reported and requires attention to be fixed.
