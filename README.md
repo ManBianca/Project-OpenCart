@@ -1,8 +1,5 @@
 # Project-OpenCart
 ## My Project in Manual Testing IT Factory
-
-In addition to the actual test project part, I also attach the [SQL section](https://github.com/ManBianca/Project-OpenCart/blob/main/OpenCart-SQL.sql).
-
 ### Test Plan
 #### 1.Introduction
 
@@ -46,9 +43,8 @@ Roles and responsibilities:
 Entry criteria:
 *	Verify if functional business specifications are defined.
 * The partial or complete testable code is available.
-* Test cases are available.
-* Data for testing is sufficient and available.
 *	Verify if roles needed for the project are allocated.
+*	Verify if test strategy is developed.
 
 Exit criteria:
 *	All test cases have been executed
