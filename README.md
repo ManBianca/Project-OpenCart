@@ -46,8 +46,8 @@ Roles and responsibilities:
 Entry criteria:
 *	Verify if functional business specifications are defined.
 * The partial or complete testable code is available.
-* Test cases are readily available.
-* Data for testing is sufficient in nature and available.
+* Test cases are available.
+* Data for testing is sufficient and available.
 *	Verify if roles needed for the project are allocated.
 
 Exit criteria:
@@ -91,7 +91,7 @@ Product risks:
 
 
 2.3. Test design
-* Functional test cases were created in Zephyr Squad and can be accessed: [here](https://github.com/ManBianca/Project-OpenCart/blob/main/PDF%20(Jira).pdf) (after stories) or [here](https://itfclasses.atlassian.net/jira/software/c/projects/BAMM/boards/84/backlog) .
+* Functional test cases were created in Zephyr Squad and can be accessed: [here](https://github.com/ManBianca/Project-OpenCart/blob/main/Jira%20Test%20Cases.pdf).
 * The test design techniques used for generating test cases are:  functional testing, positive testing and negative testing, equivalence partitioning, boundary value analysis.
 
 2.4. Test implementation
@@ -121,7 +121,9 @@ Product risks:
 
 Periodic reports are generated to check the project status: status for the test cases executed, status for the converge of the business requirements, etc
 
-After Testing the functionalities for View an Order, Searching for an Order, Manually Adding/Modifying an Order, I have reached the following conclusions:
+#### 3.Conclusions
+
+After Testing the functionalities for View an Order, Filter an Order, Manually Adding/Modifying an Order, I have reached the following conclusions:
 * View an Order: The functionalities tested for the correct visualization of the Sales module have been well implemented, so that an admin can have all the details about the site's orders at his fingertips in a table. The checkbox, sorting, navigating among the orders is easy and no aspects were found that require changes.
 * Filter an Order: The methods of filtering orders by 'Order ID', 'Customer', 'Order Status', 'Total $' depend on 'Added Date' and 'Modified Date', but in these tests performed in some positive conditions, there were no noticed problems to solve.
 * Manually Adding/Modifying an Order:
