@@ -7,11 +7,11 @@
 
 The Test Plan is designed to describe all details of testing for the Sales module from OpenCart platform.
 
-Application under test: https://demo.opencart.com/admin/
+Application under test: [OpenCart website](https://demo.opencart.com/admin/)
 
-Documentation: http://docs.opencart.com/en-gb/introduction/
+Documentation: [OpenCart documentation](http://docs.opencart.com/en-gb/introduction/)
 
-API Documentation: https://docs.opencart.com/en-gb/system/users/api/
+API Documentation: [OpenCart Api documentation](https://docs.opencart.com/en-gb/system/users/api/)
 
 Tools used: JIRA, Zephyr Squad.
 
