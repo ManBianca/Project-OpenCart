@@ -91,7 +91,7 @@ Product risks:
 * The test design techniques used for generating test cases are:  functional testing, positive testing and negative testing, equivalence partitioning, boundary value analysis.
 
 2.4. Test implementation
-* Testing environment is up and running: https://demo.opencart.com/
+* Testing environment is up and running: [OpenCart website](https://demo.opencart.com/)
 * Access to the test environment is given: username demo, pass: demo
 * Cycle summary was created.
 * Test cases were added to the cycle summary: [Cycle Summary](https://github.com/ManBianca/Project-OpenCart/blob/main/Cycle%20Summary%20-%20Sales%20module%20cycle.jpg).
